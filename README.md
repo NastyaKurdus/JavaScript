@@ -1,5 +1,5 @@
 # JavaScript works
-1.
+1.Hangman game
 2.
 3.
 4.
