@@ -1,0 +1,85 @@
+body{
+    background-image: url(background.jpg);
+    font-family: "Bradley Hand",cursive;
+    }
+
+#container{
+           width: 100%; 
+           height: 100%;
+		   margin: auto;
+           
+		  }	
+#header{
+          width: 100%; 
+          height: 20%;
+          margin-top: 5%;
+   
+       }
+h1{
+    text-align: center;
+    font-size:53px;
+    font-weight:bold;
+    
+  }
+h3{
+    padding-left: 3%;
+}
+.button{
+    padding-left:10%;
+    }
+#alfa,#false,#true,#show,#lost,#win,#help{
+  margin-left: 1%;   
+  width: 30px;    
+  border-width: 10px 0;
+  border-style: solid none;
+  border-color: #FDBE33 #000 #D77206;
+  border-radius: 25px;
+  background: linear-gradient(#F3AE0F, #E38916) #E38916;
+  font-family: "Bradley Hand",cursive;    
+  outline: none;   
+    }
+#show,#lost,#win,#alfa,#help:hover{
+    cursor:pointer
+}
+#false{
+    border-color: darkred #000 red;
+    background: linear-gradient(darkred, red) red;
+}
+#true{
+    border-color: darkgreen #000 #228B22;
+    background: linear-gradient(darkgreen, #228B22) green;
+}
+#show,#lost,#win,#help{
+    width: 100px;
+    margin-left: 5%;
+}
+#field{
+    width: 100%;  
+}
+#word{
+       width: 40%; 
+       height: 70%; 
+       float: left;
+       padding-left:12%;
+       margin-top: 10%;
+      }
+#place{
+    background-image: url(background.jpg);
+    width: 10%;
+    height: 40px;
+    text-align: center;
+    
+}
+#picture{
+       width: 43%; 
+       height: 70%; 
+       float: right;
+       margin-top: 3%;
+}
+#footer{
+    width: 100%;
+    height: 30%;
+    float: left;
+    margin-top: 1%;
+    
+}
